@@ -1,7 +1,7 @@
 {
   "sdkOptions": {
     "voice": {
-      "allowIncomingWhileBusy": true
+      "allowIncomingWhileBusy": false
     }
   },
   "custom_data": {
