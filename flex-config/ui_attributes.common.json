@@ -75,12 +75,12 @@
         "hold_workaround": false
       },
       "enhanced_crm_container": {
-        "enabled": false,
-        "url": "{{serverless.url}}/features/enhanced-crm-container/index.html?line1={{task.from}}&line2={{task.direction}}",
+        "enabled": true,
+        "url": "https://board.rtms.app/callinfo/{{task.from}}",
         "should_display_url_when_no_tasks": true,
-        "display_url_when_no_tasks": "{{serverless.url}}/features/enhanced-crm-container/index.html",
-        "enable_url_tab": true,
-        "url_tab_title": "Web Page"
+        "display_url_when_no_tasks": "https://board.rtms.app",
+        "enable_url_tab": false,
+        "url_tab_title": "The Board"
       },
       "internal_call": {
         "enabled": true
